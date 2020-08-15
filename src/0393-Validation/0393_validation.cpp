@@ -61,7 +61,9 @@ public:
                     if(data[j] > 0b10111111 || data[j] < 0b10000000)
                         return false;
                 }
+                i += cnt - 1;
             }
         }
+        return true;
     }
-}
+};
