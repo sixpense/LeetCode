@@ -13,7 +13,7 @@ publc:
         if(length < 1) {
             return NULL;
         }
-        vector<vector<int>> res;
+        vector<vector<int> > res;
         int num_size = pow(2, length);
         for(int i = 0; i < length; i++) {
             for(int j = 0; j < num_size; j++) {
